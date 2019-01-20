@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+let title:string = "Hello"
+console.log(title)
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
